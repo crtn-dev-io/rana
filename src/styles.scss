@@ -1,0 +1,98 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "SFPro-Regular";
+  src: url("./assets/fonts/SFPRODISPLAYREGULAR.OTF");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFPro-Medium";
+  src: url("./assets/fonts/SFPRODISPLAYMEDIUM.OTF");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFPro-Bold";
+  src: url("./assets/fonts/SFPRODISPLAYBOLD.OTF");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Niagara";
+  src: url("./assets/fonts/NIAGARA.TTF");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Passion-Black";
+  src: url("./assets/fonts/PassionOne-Black.TTF");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Passion-Bold";
+  src: url("./assets/fonts/PassionOne-Bold.TTF");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Passion-Regular";
+  src: url("./assets/fonts/PassionOne-Regular.TTF");
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  height: auto;
+}
+
+:root {
+  --ra-color-dark: #25272b;
+  --ra-color-dark-light: #676a87;
+
+  --ra-color-primary: #706d6f;
+  --ra-color-primary-light: #e1dfdc;
+
+  --ra-color-light: #eceae3;
+
+  --ra-color-success: #2f6452;
+
+  .font {
+    &__sf {
+      font-family: "SFPro-Regular";
+      &--medium {
+        font-family: "SFPro-Medium";
+      }
+      &--bold {
+        font-family: "SFPro-Bold";
+      }
+    }
+    &__passion {
+      font-family: "Passion-Regular";
+      &--bold {
+        font-family: "Passion-Bold";
+      }
+      &--black {
+        font-family: "Passion-Black";
+      }
+    }
+    &--niagara {
+      font-family: "Niagara";
+      font-size: 1.5em;
+    }
+  }
+
+  .button {
+    border: none;
+    border-radius: 2px;
+    padding: 12px 25px;
+    cursor: pointer;
+    label {
+      cursor: pointer;
+    }
+    &--primary {
+      background-color: var(--ra-color-primary);
+      color: var(--ra-color-light);
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.presentation {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+}

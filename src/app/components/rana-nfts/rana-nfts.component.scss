@@ -1,0 +1,15 @@
+.nfts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  &__title {
+    font-size: 3vw;
+    color: var(--ra-color-primary);
+  }
+  &__content {
+    margin-top: 10vw;
+    background-color: var(--ra-color-dark);
+  }
+  &__list {
+    grid-template-rows: repeat(8, 1fr);
+  }
+}

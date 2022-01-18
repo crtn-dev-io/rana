@@ -1,0 +1,8 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  &__content {
+    background-color: var(--ra-color-light);
+  }
+}
