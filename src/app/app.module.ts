@@ -8,6 +8,8 @@ import { RanaHomeComponent } from "./pages/rana-home/rana-home.component";
 import { RanaPresentationComponent } from "./components/rana-presentation/rana-presentation.component";
 import { RanaComicComponent } from './components/rana-comic/rana-comic.component';
 import { RanaNftsComponent } from './components/rana-nfts/rana-nfts.component';
+import { RanaProjectComponent } from './components/rana-project/rana-project.component';
+import { RanaCardComponent } from './components/rana-card/rana-card.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { RanaNftsComponent } from './components/rana-nfts/rana-nfts.component';
     RanaPresentationComponent,
     RanaComicComponent,
     RanaNftsComponent,
+    RanaProjectComponent,
+    RanaCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

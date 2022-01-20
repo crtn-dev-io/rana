@@ -1,8 +1,18 @@
-<section class="nfts">
-  <div class="nfts__content">
-    <section class="nfts__list">
-        <label class="nfts__title font__sf--bold">NAISSANCE</label>
-    </section>
-    <aside class="nft__show"></aside>
-  </div>
+<section class="nfts nfts__content">
+  <section class="nfts__list">
+    <label
+      *ngFor="let nft of nftMap | keyvalue; let i = index"
+      id="nft__{{ i }}"
+      class="nfts__title font__sf--bold"
+      [ngClass]="getActiveNft(nft.key) ? 'active--link' : ''"
+      (click)="onNftLabelClick(nft.key)"
+      >{{ nft.key }}</label
+    >
+    <div class="nfts__all clickable" (click)="redirectWax()">
+      <label class="nfts__title font__sf--bold">VOIR LES AUTRES NFTS</label>
+    </div>
+  </section>
+  <aside class="nfts__show">
+    <img [src]="nftImage" />
+  </aside>
 </section>
