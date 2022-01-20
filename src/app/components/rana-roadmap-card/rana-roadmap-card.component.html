@@ -1,0 +1,9 @@
+<div class="card">
+  <img [src]="content.icon" height="30" />
+  <div class="card__title">
+    <label class="font__sf color--grey">{{ content.label }}</label>
+  </div>
+  <div class="card__chips">
+    <rana-chip *ngFor="let chip of content.chips" [chip]="chip"></rana-chip>
+  </div>
+</div>

@@ -10,6 +10,9 @@ import { RanaComicComponent } from './components/rana-comic/rana-comic.component
 import { RanaNftsComponent } from './components/rana-nfts/rana-nfts.component';
 import { RanaProjectComponent } from './components/rana-project/rana-project.component';
 import { RanaCardComponent } from './components/rana-card/rana-card.component';
+import { RanaRoadmapComponent } from './components/rana-roadmap/rana-roadmap.component';
+import { RanaRoadmapCardComponent } from './components/rana-roadmap-card/rana-roadmap-card.component';
+import { RanaChipComponent } from './components/rana-chip/rana-chip.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { RanaCardComponent } from './components/rana-card/rana-card.component';
     RanaNftsComponent,
     RanaProjectComponent,
     RanaCardComponent,
+    RanaRoadmapComponent,
+    RanaRoadmapCardComponent,
+    RanaChipComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

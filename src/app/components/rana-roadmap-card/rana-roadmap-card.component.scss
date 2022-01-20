@@ -1,0 +1,12 @@
+.card {
+  border: 1px solid var(--ra-color-primary);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 20px;
+  align-items: center;
+  padding: 10px;
+  &__chips {
+    text-align: end;
+  }
+}

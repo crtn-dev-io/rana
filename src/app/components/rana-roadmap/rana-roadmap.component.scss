@@ -1,0 +1,41 @@
+.wrapper {
+  display: grid;
+  height: 100vh;
+  margin-top: 8vw;
+  column-gap: 20px;
+  grid-template-columns: 100px repeat(2, 1fr) 100px;
+  &__left {
+    grid-column-start: 2;
+    grid-template-rows: auto auto 1fr;
+    row-gap: 20px;
+  }
+  &__right {
+    grid-column-start: 3;
+  }
+  &__image {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+  &__text {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto 1fr;
+  }
+  &__title {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    label {
+      font-size: 2vw;
+    }
+    img {
+      width: 30px;
+    }
+  }
+}
+
+.maps {
+  display: grid;
+  row-gap: 10px;
+}

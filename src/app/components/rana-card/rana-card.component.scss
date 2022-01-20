@@ -1,8 +1,9 @@
 .card {
   background-color: var(--ra-color-primary-light);
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   padding: 20px;
+  border-radius: 3px;
   &__title {
     align-items: center;
     display: grid;
