@@ -41,6 +41,12 @@ export class RanaRoadmapComponent implements OnInit {
         },
       ],
     },
+  ];
+
+  /**
+   * What's coming
+   */
+  roadmapNext: RoadMap[] = [
     {
       label: "Création des premiers strips",
       icon: "assets/img/time--grey.svg",
@@ -49,12 +55,20 @@ export class RanaRoadmapComponent implements OnInit {
           label: "DESIGN",
         },
       ],
-    }
+    },
   ];
 
   constructor() {}
 
   ngOnInit(): void {}
+
+  /**
+   * Redirect to given website
+   * @param path 
+   */
+  redirectWebsite(path: string) {
+    window.open(path, "_blank");
+  }
 }
 
 export type RoadMap = {

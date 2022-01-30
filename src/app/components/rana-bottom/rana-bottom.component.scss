@@ -1,0 +1,39 @@
+.bottom {
+  display: grid;
+  grid-template-rows: 1fr;
+  position: relative;
+  width: 100%;
+  img {
+    width: inherit;
+  }
+  &__banniere {
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 8;
+    background-color: var(--ra-color-dark);
+    height: 100%;
+    color: #ffffff;
+    width: 50%;
+    font-weight: bold;
+  }
+  &__content {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    padding: 5vw;
+    height: -webkit-fill-available;
+    .title {
+      font-size: 4vw;
+    }
+    .content {
+      font-size: 1.5vw;
+      margin-top: 2vw;
+    }
+    .action {
+      align-items: end;
+      justify-content: start;
+      display: grid;
+    }
+  }
+}

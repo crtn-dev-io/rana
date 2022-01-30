@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
-  height: 100vh;
   margin-top: 8vw;
+  margin-bottom: 8vw;
   column-gap: 20px;
   grid-template-columns: 100px repeat(2, 1fr) 100px;
   &__left {
@@ -35,7 +35,40 @@
   }
 }
 
-.maps {
+.wrapper__right {
   display: grid;
+  grid-template-rows: auto 1fr;
   row-gap: 10px;
+  .maps {
+    display: grid;
+    row-gap: 10px;
+  }
+}
+
+.card {
+  border: 2px solid var(--ra-color-primary-light);
+  background-color: var(--ra-color-primary-light);
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 10px;
+  &__header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    column-gap: 20px;
+  }
+  &__chips {
+    text-align: end;
+  }
+  &__content {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+}
+
+.actions {
+  button {
+    margin-right: 10px;
+  }
 }

@@ -13,6 +13,11 @@ import { RanaCardComponent } from './components/rana-card/rana-card.component';
 import { RanaRoadmapComponent } from './components/rana-roadmap/rana-roadmap.component';
 import { RanaRoadmapCardComponent } from './components/rana-roadmap-card/rana-roadmap-card.component';
 import { RanaChipComponent } from './components/rana-chip/rana-chip.component';
+import { RanaTeamComponent } from './components/rana-team/rana-team.component';
+import { RanaMemberComponent } from './components/rana-member/rana-member.component';
+import { RanaFaqComponent } from './components/rana-faq/rana-faq.component';
+import { RanaFaqCardComponent } from './components/rana-faq-card/rana-faq-card.component';
+import { RanaBottomComponent } from './components/rana-bottom/rana-bottom.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +32,11 @@ import { RanaChipComponent } from './components/rana-chip/rana-chip.component';
     RanaRoadmapComponent,
     RanaRoadmapCardComponent,
     RanaChipComponent,
+    RanaTeamComponent,
+    RanaMemberComponent,
+    RanaFaqComponent,
+    RanaFaqCardComponent,
+    RanaBottomComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

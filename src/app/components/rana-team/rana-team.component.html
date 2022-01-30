@@ -1,0 +1,33 @@
+<div class="wrapper">
+  <div class="wrapper__content">
+    <div class="wrapper__title">
+      <label class="font__sf--bold color--light">L'équipe</label>
+      <img src="assets/img/checkmark.svg" />
+    </div>
+    <div class="members">
+      <rana-member
+        *ngFor="let member of members"
+        [name]="member.name"
+        [description]="member.description"
+      ></rana-member>
+    </div>
+  </div>
+  <div class="wrapper__img">
+    <picture>
+      <img
+        src="assets/img/lumi.png"
+        [ngClass]="selectedMember === 'lumi' ? 'selected' : ''"
+        id="lumi"
+        height="350"
+      />
+    </picture>
+    <picture>
+      <img
+        src="assets/img/alainhenri.png"
+        id="alain"
+        [ngClass]="selectedMember === 'alain' ? 'selected' : ''"
+        height="350"
+      />
+    </picture>
+  </div>
+</div>

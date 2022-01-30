@@ -1,0 +1,18 @@
+<div class="faq clickable" (click)="onContentDisplay()">
+  <div class="faq__title">
+    <label class="font__sf--bold">{{ question.title }}</label>
+  </div>
+  <div class="faq__icon">
+    <img
+      [src]="
+        question.isDisplayed
+          ? 'assets/img/chevron-down.png'
+          : 'assets/img/chevron-up.png'
+      "
+      height="20"
+    />
+  </div>
+  <div class="faq__content" *ngIf="question.isDisplayed">
+    <label class="font__sf">{{ question.content }}</label>
+  </div>
+</div>

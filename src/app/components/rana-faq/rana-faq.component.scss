@@ -1,0 +1,21 @@
+.wrapper {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  &__title {
+    font-size: 3vw;
+    grid-column-start: 2;
+  }
+  &__content {
+    display: grid;
+    grid-template-rows: repeat(5, minmax(80px, auto));
+    grid-template-columns: 20vw 1fr 20vw;
+    row-gap: 20px;
+    align-items: center;
+  }
+}
+
+.question {
+  grid-column-start: 2;
+}

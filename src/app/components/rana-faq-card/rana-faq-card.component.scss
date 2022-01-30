@@ -1,0 +1,17 @@
+.faq {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 100px auto;
+  background-color: var(--ra-color-primary-light);
+  align-items: center;
+  border-radius: 5px;
+  padding: 0 20px;
+  &__title {
+    text-align: start;
+    font-size: 1vw;
+  }
+  &__content {
+    text-align: start;
+    padding: 5px 0;
+  }
+}

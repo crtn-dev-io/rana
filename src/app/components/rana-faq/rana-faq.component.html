@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <div class="wrapper__content">
+    <div class="wrapper__title">
+      <label class="font__sf--bold">Des questions ?</label>
+    </div>
+    <rana-faq-card
+      class="question"
+      *ngFor="let question of questions"
+      [question]="question"
+      (onDisplay)="hideOthers(question)"
+    ></rana-faq-card>
+  </div>
+</div>

@@ -21,5 +21,61 @@
         [content]="map"
       ></rana-roadmap-card>
     </div>
+    <div class="map__open">
+      <div class="card">
+        <div class="card__header">
+          <img src="assets/img/time--grey.svg" height="30" />
+          <div class="card__title">
+            <label class="font__sf--medium color--dark"
+              >Mise à disposition des NFTs</label
+            >
+          </div>
+        </div>
+        <div class="card__content">
+          <div class="content__explanation">
+            <label class="font__sf color--grey"
+              >Les premiers thèmes ayant été designés, l'idée maintenant est de
+              tous les mettre sur la blockchain WAX et de préparer un giveaway
+              pour les premiers arrivés. Par la suite, des drops seront mis en
+              place pour faire connaitre le projet.</label
+            >
+          </div>
+          <br />
+          <div class="content__link">
+            <a class="font__sf color--primary"
+              >Je ne connais pas Atomichub, comment ça se passe ?</a
+            >
+          </div>
+          <br />
+          <div class="content__actions">
+            <small class="font__sf color--grey">Ressources</small>
+            <div class="actions">
+              <button
+                class="button button--primary"
+                (click)="
+                  redirectWebsite(
+                    'https://wax.guide/tutorial-how-to-create-a-wax-wallet/'
+                  )
+                "
+              >
+                Créer un portefeuille WAX
+              </button>
+              <button
+                class="button button--primary"
+                (click)="redirectWebsite('https://support.pink.gg/hc/en-us')"
+              >
+                Comprendre Atomichub
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="maps">
+      <rana-roadmap-card
+        *ngFor="let map of roadmapNext"
+        [content]="map"
+      ></rana-roadmap-card>
+    </div>
   </div>
 </div>
