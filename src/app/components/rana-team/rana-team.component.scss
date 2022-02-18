@@ -39,7 +39,35 @@
   mix-blend-mode: unset !important;
 }
 
+img {
+  width: 15vw;
+}
+
 .members {
   margin-top: 3vw;
   display: grid;
+}
+
+@media screen and (max-width: 980px) { 
+  .wrapper {
+    &__content {
+      padding-top: 100px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    &__img {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    &__title {
+      label {
+        font-size: 6vw;
+      }
+    }
+  }
+  picture {
+    img {
+      width: 30vw;
+    }
+  }
 }

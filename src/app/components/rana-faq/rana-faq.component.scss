@@ -19,3 +19,11 @@
 .question {
   grid-column-start: 2;
 }
+
+@media screen and (max-width: 980px) {
+  .wrapper {
+    &__title {
+      font-size: 8vw;
+    }
+  }
+}

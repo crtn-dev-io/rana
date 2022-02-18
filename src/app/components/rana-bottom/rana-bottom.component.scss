@@ -3,6 +3,7 @@
   grid-template-rows: 1fr;
   position: relative;
   width: 100%;
+  overflow: hidden;
   img {
     width: inherit;
   }
@@ -32,6 +33,53 @@
       align-items: end;
       justify-content: start;
       display: grid;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .bottom {
+    img {
+      width: 125%;
+    }
+    &__content {
+      padding: 6.5vw;
+      .title {
+        font-size: 5vw;
+      }
+      .content {
+        font-size: 3vw;
+      }
+    }
+  }
+  button {
+    label {
+      font-size: 3vw;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bottom {
+    img {
+      width: 150%;
+    }
+    &__banniere {
+      width: 70%;
+    }
+    &__content {
+      padding: 8vw;
+      .title {
+        font-size: 15vw;
+      }
+      .content {
+        font-size: 9vw;
+      }
+    }
+  }
+  button {
+    label {
+      font-size: 9vw;
     }
   }
 }

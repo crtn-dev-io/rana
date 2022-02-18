@@ -6,3 +6,15 @@
     background-color: var(--ra-color-light);
   }
 }
+
+@media screen and (max-width: 980px) {
+  .container {
+    grid-template-rows: 100px 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-rows: 120px 1fr;
+  }
+}

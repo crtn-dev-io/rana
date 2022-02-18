@@ -1,7 +1,49 @@
 .presentation {
-    display: grid;
-    grid-template-rows: auto auto 1fr;
-    align-items: center;
-    text-align: center;
-    row-gap: 10px;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  align-items: center;
+  text-align: center;
+  row-gap: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.title {
+  font-size: 10vw;
+}
+
+.subtitle {
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 980px) {
+  img {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .title {
+    font-size: 10vw;
+  }
+
+  .subtitle {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    height: 175vh;
+  }
+
+  .title {
+    font-size: 30vw;
+  }
+
+  .subtitle {
+    font-size: 10vw;
+  }
 }
