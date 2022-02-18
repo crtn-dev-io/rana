@@ -10,3 +10,13 @@
     text-align: end;
   }
 }
+
+@media screen and (max-width: 980px) {
+  .card {
+    &__title {
+      label {
+        font-size: 2.5vw;
+      }
+    }
+  }
+}

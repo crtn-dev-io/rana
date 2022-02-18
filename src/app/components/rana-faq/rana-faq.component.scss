@@ -1,5 +1,5 @@
 .wrapper {
-  height: 100vh;
+  height: 80vh;
   display: grid;
   align-items: center;
   text-align: center;
@@ -24,6 +24,9 @@
   .wrapper {
     &__title {
       font-size: 8vw;
+    }
+    &__content {
+      grid-template-columns: 50px 1fr 50px;
     }
   }
 }

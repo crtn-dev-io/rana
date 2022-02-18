@@ -74,3 +74,34 @@
     grid-column-start: 4;
   }
 }
+
+@media screen and (max-width: 980px) {
+  .wrapper {
+    &__img {
+      img {
+        height: 40vw;
+      }
+    }
+    &__explanation {
+      grid-template-columns: 50px 1fr 1fr 50px;
+      font-size: 2.5vw;
+    }
+    &__cards {
+      grid-template-columns: 50px 1fr 1fr 50px;
+      grid-template-rows: 1fr 1fr;
+      row-gap: 20px;
+    }
+    &__title {
+      grid-template-columns: 50px auto 1fr 50px;
+      label {
+        font-size: 6vw;
+      }
+    }
+  }
+  .cards {
+    &__share {
+      grid-column: 2 / 4;
+      grid-row-start: 2;
+    }
+  }
+}

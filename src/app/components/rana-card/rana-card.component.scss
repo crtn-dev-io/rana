@@ -9,6 +9,9 @@
     display: grid;
     grid-template-columns: 50px 1fr;
     column-gap: 20px;
+    label {
+      font-size: 1vw;
+    }
   }
   &__content {
     display: grid;
@@ -16,6 +19,39 @@
     column-gap: 20px;
     .content {
       grid-column-start: 2;
+    }
+    label {
+      font-size: 0.9vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .card {
+    &__title {
+      label {
+        font-size: 1.2vw;
+      }
+    }
+    &__content {
+      label {
+        font-size: 1vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .card {
+    &__title {
+      label {
+        font-size: 2.5vw;
+      }
+    }
+    &__content {
+      label {
+        font-size: 2.4vw;
+      }
     }
   }
 }
