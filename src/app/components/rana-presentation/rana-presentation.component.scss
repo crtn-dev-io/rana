@@ -34,16 +34,18 @@ img {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   img {
     height: 175vh;
   }
 
   .title {
+    padding: 0 30px;
     font-size: 30vw;
   }
 
   .subtitle {
+    padding: 0 30px;
     font-size: 10vw;
   }
 }
