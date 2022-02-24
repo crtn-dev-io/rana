@@ -1,16 +1,13 @@
 .comic {
-  height: 100vh;
+  margin: 10vh 0;
   text-align: center;
   display: grid;
   justify-content: center;
   align-items: center;
   &__title {
     margin-top: 2vw;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
     label {
       font-size: 2vw;
-      grid-column-start: 2;
     }
   }
   &__content {
@@ -55,14 +52,15 @@ img {
 
 @media screen and (max-width: 600px) {
   img {
-    height: 80vh;
+    height: 50vh;
   }
   .comic__title {
+    padding: 30px;
     label {
       font-size: 7.7vw;
     }
   }
   .content__label {
-    font-size: 20vw;
+    font-size: 13vw;
   }
 }

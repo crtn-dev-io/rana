@@ -37,7 +37,8 @@ export class RanaHomeComponent implements OnInit {
     const LUMI = document.getElementById("lumi")?.offsetTop!;
     const ALAIN = document.getElementById("alain")?.offsetTop!;
 
-    if(window.scrollY + window.screen.height / 3 < LUMI) {
+    let divider = window.screen.width < 600 ? 1 : 3;
+    if (window.scrollY + window.screen.height / divider < LUMI) {
       this.teamSelectedMember = "lumi";
     } else {
       this.teamSelectedMember = "alain";
@@ -52,16 +53,16 @@ export class RanaHomeComponent implements OnInit {
     ]);
     const array = [AMUSEMENT, BAIN, COUCHE, NAISSANCE, NOURRITURE];
     let nft = array.find((item, index) => {
-      if (window.scrollY + window.screen.height / 2 < AMUSEMENT) return item;
+      if (window.scrollY + window.screen.height / 2.1 < AMUSEMENT) return item;
       if (
-        window.scrollY + window.screen.height / 2 > NOURRITURE &&
+        window.scrollY + window.screen.height / 2.1 > NOURRITURE &&
         index === array.length - 1
       ) {
         return item;
       }
       return (
-        item! < window.scrollY + window.screen.height / 2 &&
-        array[index + 1]! > window.scrollY + window.screen.height / 2
+        item! < window.scrollY + window.screen.height / 2.1 &&
+        array[index + 1]! > window.scrollY + window.screen.height / 2.1
       );
     });
     this.nftImage = this.getNftImage(map.get(nft!)!) ?? this.nftImage;

@@ -20,3 +20,14 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .member {
+    &__name {
+      font-size: 7vw;
+    }
+    &__description {
+      font-size: 6vw;
+    }
+  }
+}

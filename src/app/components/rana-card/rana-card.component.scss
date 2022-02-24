@@ -55,3 +55,18 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .card {
+    &__title {
+      label {
+        font-size: 6vw;
+      }
+    }
+    &__content {
+      label {
+        font-size: 5.4vw;
+      }
+    }
+  }
+}

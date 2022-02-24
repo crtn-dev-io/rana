@@ -27,6 +27,9 @@
   }
   &__all {
     cursor: pointer;
+    &:last-child {
+      grid-column: 1 / 2;
+    }
   }
 }
 
@@ -56,7 +59,7 @@
       font-size: 6vw;
     }
     &__content {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
   }
 }

@@ -105,3 +105,50 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    &__img {
+      img {
+        height: 60vw;
+      }
+    }
+    &__explanation {
+      grid-template-columns: 10px 1fr 10px;
+      font-size: 6vw;
+      row-gap: 20px;
+    }
+    &__cards {
+      grid-template-columns: 10px 1fr 10px;
+      grid-template-rows: 1fr 1fr 1fr;
+      row-gap: 20px;
+      rana-card {
+        grid-column-start: 2;
+      }
+    }
+    &__title {
+      grid-template-columns: 10px auto 1fr 10px;
+      label {
+        font-size: 8vw;
+      }
+    }
+    .card__project {
+      border: 5px solid var(--ra-color-dark);
+      width: 50%;
+      left: 45%;
+      font-size: 6vw;
+    }
+  }
+  .cards__share {
+    grid-column: 2;
+    grid-row-start: unset;
+  }
+  .explanation {
+    &__left {
+      grid-column-start: 2;
+    }
+    &__right {
+      grid-column-start: 2;
+    }
+  }
+}

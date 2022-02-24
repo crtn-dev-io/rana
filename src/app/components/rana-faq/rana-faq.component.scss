@@ -1,8 +1,9 @@
 .wrapper {
-  height: 80vh;
   display: grid;
   align-items: center;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
   &__title {
     font-size: 3vw;
     grid-column-start: 2;
@@ -27,6 +28,17 @@
     }
     &__content {
       grid-template-columns: 50px 1fr 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    &__title {
+      font-size: 12vw;
+    }
+    &__content {
+      grid-template-columns: 30px 1fr 30px;
     }
   }
 }

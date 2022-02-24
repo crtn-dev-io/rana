@@ -33,6 +33,7 @@
       align-items: end;
       justify-content: start;
       display: grid;
+      height: inherit;
     }
   }
 }
@@ -80,6 +81,31 @@
   button {
     label {
       font-size: 9vw;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bottom {
+    img {
+      width: 150%;
+    }
+    &__banniere {
+      width: 90%;
+    }
+    &__content {
+      padding: 8vw;
+      .title {
+        font-size: 8vw;
+      }
+      .content {
+        font-size: 7vw;
+      }
+    }
+  }
+  button {
+    label {
+      font-size: 7vw;
     }
   }
 }

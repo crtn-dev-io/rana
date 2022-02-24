@@ -57,3 +57,20 @@ img {
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .header {
+    height: 120px;
+  }
+  img {
+    height: 100px;
+  }
+  .title {
+    font-size: 9vw;
+  }
+  button {
+    label {
+      font-size: 5vw;
+    }
+  }
+}
