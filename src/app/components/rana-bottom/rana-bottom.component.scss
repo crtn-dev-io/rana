@@ -31,8 +31,8 @@
     }
     .action {
       align-items: end;
-      justify-content: start;
-      display: grid;
+      justify-content: flex-start;
+      display: flex;
       height: inherit;
     }
   }
@@ -85,7 +85,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .bottom {
     img {
       width: 150%;

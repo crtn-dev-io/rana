@@ -33,6 +33,9 @@
 
 @media screen and (max-width: 500px) {
   .wrapper {
+    height: inherit;
+    padding-top: 50px;
+    padding-bottom: 50px;
     &__title {
       font-size: 12vw;
     }
