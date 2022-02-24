@@ -52,17 +52,19 @@ export class RanaHomeComponent implements OnInit {
       [NOURRITURE, "NOURRITURE"],
     ]);
     const array = [AMUSEMENT, BAIN, COUCHE, NAISSANCE, NOURRITURE];
+    let nftDivider = window.screen.width < 600 ? 1.5 : 2.1;
     let nft = array.find((item, index) => {
-      if (window.scrollY + window.screen.height / 2.1 < AMUSEMENT) return item;
+      if (window.scrollY + window.screen.height / nftDivider < AMUSEMENT)
+        return item;
       if (
-        window.scrollY + window.screen.height / 2.1 > NOURRITURE &&
+        window.scrollY + window.screen.height / nftDivider > NOURRITURE &&
         index === array.length - 1
       ) {
         return item;
       }
       return (
-        item! < window.scrollY + window.screen.height / 2.1 &&
-        array[index + 1]! > window.scrollY + window.screen.height / 2.1
+        item! < window.scrollY + window.screen.height / nftDivider &&
+        array[index + 1]! > window.scrollY + window.screen.height / nftDivider
       );
     });
     this.nftImage = this.getNftImage(map.get(nft!)!) ?? this.nftImage;
