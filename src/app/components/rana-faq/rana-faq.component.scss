@@ -1,9 +1,8 @@
 .wrapper {
+  height: 100vh;
   display: grid;
   align-items: center;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
   &__title {
     font-size: 3vw;
     grid-column-start: 2;
