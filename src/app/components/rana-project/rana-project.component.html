@@ -2,47 +2,43 @@
   <div class="wrapper__img">
     <img src="assets/img/BATH.png" />
     <div class="card__project">
-      <label class="font__sf--bold">Un projet pour changer leur vision</label>
+      <label class="font__sf--bold">{{
+        "COMPONENTS.PROJECT.TITLE" | translate
+      }}</label>
     </div>
   </div>
   <div class="wrapper__title">
-    <label class="font__sf--bold">Projet</label>
+    <label class="font__sf--bold">{{
+      "COMPONENTS.PROJECT.HEADER" | translate
+    }}</label>
     <img src="assets/img/checkmark.svg" />
   </div>
   <div class="wrapper__explanation">
-    <label class="font__sf explanation__left"
-      >L'idée même de détenir des parts d'une bande dessinée peut faire rire, et
-      pourtant, cela est enfin rendu possible grâce aux NFTs. Imaginez vous
-      entrain de vous balader dans un centre commercial et apercevoir une bande
-      dessinée dont vous détenez des parts grâce à la blockchain.</label
-    >
-    <label class="font__sf explanation__right"
-      >Magnifique n'est-ce pas ? C'est là toute l'essence du projet. Réunir des
-      personnes de tous horizons pour qu'ils puissent eux même détenir une BD
-      sans avoir besoin de la produire.</label
-    >
+    <label class="font__sf explanation__left">{{
+      "COMPONENTS.PROJECT.EXPLANATION_LEFT" | translate
+    }}</label>
+    <label class="font__sf explanation__right">{{
+      "COMPONENTS.PROJECT.EXPLANATION_RIGHT" | translate
+    }}</label>
   </div>
   <div class="wrapper__cards">
     <rana-card
       class="cards__project"
       [icon]="'assets/img/bookmark.svg'"
-      label="Un projet ambitieux"
-      content="Enfin un projet où conserver 
-      ses NFTs a du sens."
+      label="COMPONENTS.PROJECT.FIRST_CARD_LABEL"
+      content="COMPONENTS.PROJECT.FIRST_CARD_CONTENT"
     ></rana-card>
     <rana-card
       class="cards__numeric"
       [icon]="'assets/img/directory.svg'"
-      label="Du numérique au physique"
-      content="Associer la blockchain à un 
-      objet pour mieux comprendre."
+      label="COMPONENTS.PROJECT.SECOND_CARD_LABEL"
+      content="COMPONENTS.PROJECT.SECOND_CARD_CONTENT"
     ></rana-card>
     <rana-card
       class="cards__share"
       [icon]="'assets/img/hand.svg'"
-      label="Partager les ressources"
-      content="Participe à ton niveau,
-      tout le monde t'attend !"
+      label="COMPONENTS.PROJECT.THIRD_CARD_LABEL"
+      content="COMPONENTS.PROJECT.THIRD_CARD_CONTENT"
     ></rana-card>
   </div>
 </section>

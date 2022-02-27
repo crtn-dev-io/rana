@@ -1,0 +1,81 @@
+{
+  "COMPONENTS": {
+    "HEADER": {
+      "TITLE": "THE BLOCKCHAIN TO THE RESCUE",
+      "BUTTON_TEXT": "Join us"
+    },
+    "PRESENTATION": {
+      "TITLE": "RANA THE FROG",
+      "SUBTITLE": "A collection full of humor and action that will delight children and parents alike 😀"
+    },
+    "COMIC": {
+      "TITLE": "What if you hold a part of a comic?",
+      "SUBTITLE_PART_1": "Today the idea can be realized thanks to NFTs 📖",
+      "SUBTITLE_PART_2": "By participating in the Rana project, you will take part in a world",
+      "SUBTITLE_PART_3": "first 🥇 the creation of a comic book thanks to the blockchain."
+    },
+    "NFTS": {
+      "AMUSEMENT": "AMUSEMENT",
+      "BATH": "BATH",
+      "DIAPER": "DIAPER",
+      "BIRTH": "BIRTH",
+      "FOOD": "FOOD",
+      "OTHERS": "SEE OTHER NFTS"
+    },
+    "PROJECT": {
+      "TITLE": "A project to change their vision",
+      "HEADER": "Project",
+      "EXPLANATION_LEFT": "The very idea of owning shares in a comic book can be laughable, and however, this is finally made possible thanks to NFTs. imagine strolling through a mall and spotting a gang comic strip of which you hold shares thanks to the blockchain.",
+      "EXPLANATION_RIGHT": "Beautiful isn't it? This is the essence of the project. Bring together people from all walks of life so that they can own a comic book themselves without having to produce it.",
+      "FIRST_CARD_LABEL": "An ambitious project",
+      "FIRST_CARD_CONTENT": "Finally a project where to keep his NFTs makes sense.",
+      "SECOND_CARD_LABEL": "From digital to physical",
+      "SECOND_CARD_CONTENT": "Associate the blockchain with a object to better understand.",
+      "THIRD_CARD_LABEL": "Share resources",
+      "THIRD_CARD_CONTENT": "Participate at your level, everyone is waiting for you!"
+    },
+    "ROADMAP": {
+      "HEADER": "Roadmap",
+      "SUBTITLE": "A clearer vision on the progress of the project and the scope of this one 🔍",
+      "CARD": {
+        "FIRST_LABEL": "Creation of the website",
+        "SECOND_LABEL": "Design of the first NFTs",
+        "THIRD_LABEL": "Creation of the ranadventure account",
+        "FOURTH_TITLE": "Provision of nfts",
+        "FOURTH_CONTENT": "The first themes having been designed, the idea now is to put them all on the WAX ​​blockchain and prepare a giveaway for the first to arrive. Thereafter, drops will be put in place to publicize the project.",
+        "FOURTH_ATOMIC_LINK": "I don't know Atomichub, what is it ?",
+        "FOURTH_RESOURCES": "Resources",
+        "FOURTH_ACTION_FIRST": "Create a WAX wallet",
+        "FOURTH_ACTION_SECOND": "Understand Atomichub",
+        "FIFTH_LABEL": "Creation of the first strips"
+      }
+    },
+    "TEAM": {
+      "TITLE": "Team",
+      "LUMI": {
+        "NAME": "Lümi",
+        "DESCRIPTION": "A great Banano illustrator, she uses her little designer fingers to bring us the cutest frog on the blockchain."
+      },
+      "ALAINHENRI": {
+        "NAME": "Alain Henri",
+        "DESCRIPTION": "Guru of the WAX ​​universe and computer engineer, his experience allows him to understand the universe of NFTs and to better prepare a project which, we hope, will be crowned with success for you as much as for us."
+      }
+    },
+    "FAQ": {
+      "TITLE": "Questions ?",
+      "FIRST_QUESTION_TITLE": "When is the first giveaway?",
+      "FIRST_QUESTION_CONTENT": "Soon, very soon... Stay tuned !",
+      "SECOND_QUESTION_TITLE": "In which language will the first version be?",
+      "SECOND_QUESTION_CONTENT": "In French because it is our native language, if the project goes well we hope to be able to release it directly in English too",
+      "THIRD_QUESTION_TITLE": "Why calling the frog Rana ?",
+      "THIRD_QUESTION_CONTENT": "Well, Rana, in Latin, simply means frog!",
+      "FOURTH_QUESTION_TITLE": "Am i late ?",
+      "FOURTH_QUESTION_CONTENT": "No, absolutely not, also don't forget that you are welome to take part in the project"
+    },
+    "BOTTOM": {
+      "TITLE": "So, ready to hold a share of comics?",
+      "SUBTITLE": "If the universe suits you and you want to embark on a project that makes sense, then you are welcome. Together, let's go from digital to physical.",
+      "ACTION": "Take part in the adventure"
+    }
+  }
+}

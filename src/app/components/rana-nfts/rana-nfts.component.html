@@ -1,15 +1,17 @@
 <section class="nfts nfts__content">
   <section class="nfts__list">
     <label
-      *ngFor="let nft of nftMap | keyvalue; let i = index"
+      *ngFor="let nft of nfts; let i = index"
       id="nft__{{ i }}"
       class="nfts__title font__sf--bold"
-      [ngClass]="getActiveNft(nft.key) ? 'active--link' : ''"
-      (click)="onNftLabelClick(nft.key)"
-      >{{ nft.key }}</label
+      [ngClass]="getActiveNft(nft) ? 'active--link' : ''"
+      (click)="onNftLabelClick(nft)"
+      >{{ nft | translate}}</label
     >
     <div class="nfts__all clickable" (click)="redirectWax()">
-      <label class="nfts__title nfts__title--other font__sf--bold">VOIR LES AUTRES NFTS</label>
+      <label class="nfts__title nfts__title--other font__sf--bold">{{
+        "COMPONENTS.NFTS.OTHERS" | translate
+      }}</label>
     </div>
   </section>
   <aside class="nfts__show">

@@ -12,27 +12,23 @@ export class RanaFaqComponent implements OnInit {
    */
   questions: Faq[] = [
     {
-      title: "Quand se passe le premier giveaway ?",
-      content:
-        "Pour l'instant on attend Pour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attendPour l'instant on attend",
+      title: "COMPONENTS.FAQ.FIRST_QUESTION_TITLE",
+      content: "COMPONENTS.FAQ.FIRST_QUESTION_CONTENT",
       isDisplayed: false,
     },
     {
-      title: "Je ne connais pas Atomichub",
-      content:
-        "Pour l'instant on attend  l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend",
+      title: "COMPONENTS.FAQ.SECOND_QUESTION_TITLE",
+      content: "COMPONENTS.FAQ.SECOND_QUESTION_CONTENT",
       isDisplayed: false,
     },
     {
-      title: "Pourquoi s'appeler Rana ?",
-      content:
-        "Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend",
+      title: "COMPONENTS.FAQ.THIRD_QUESTION_TITLE",
+      content: "COMPONENTS.FAQ.THIRD_QUESTION_CONTENT",
       isDisplayed: false,
     },
     {
-      title: "Je n'ai pas vraiment compris le projet",
-      content:
-        "Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend l'instant on attend Pour l'instant on attend",
+      title: "COMPONENTS.FAQ.FOURTH_QUESTION_TITLE",
+      content: "COMPONENTS.FAQ.FOURTH_QUESTION_CONTENT",
       isDisplayed: false,
     },
   ];
@@ -42,7 +38,7 @@ export class RanaFaqComponent implements OnInit {
 
   /**
    * When clicking on display, hide the others
-   * @param ques 
+   * @param ques
    */
   hideOthers(ques: Faq) {
     this.questions.map((question: Faq) => {

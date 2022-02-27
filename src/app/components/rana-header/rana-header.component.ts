@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-
-const RANA_URL_WAX: string = "https://wax.atomichub.io/profile/ranadventure";
+import { TranslateService } from "@ngx-translate/core";
 
 @Component({
   selector: "rana-header",
@@ -8,14 +7,17 @@ const RANA_URL_WAX: string = "https://wax.atomichub.io/profile/ranadventure";
   styleUrls: ["./rana-header.component.scss"],
 })
 export class RaHeaderComponent implements OnInit {
-  constructor() {}
+  constructor(private _translate: TranslateService) {
+    _translate.addLangs(["en", "fr"]);
+  }
 
   ngOnInit(): void {}
 
   /**
-   * Redirect to the wax website, in another tab
+   * Change language of the application
+   * @param lang 
    */
-   redirectRana(): void {
-    window.open(RANA_URL_WAX, "_blank");
+  changeLanguage(lang: any | null): void {
+    this._translate.setDefaultLang(lang.value);
   }
 }

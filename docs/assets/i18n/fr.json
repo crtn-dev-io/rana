@@ -1,0 +1,82 @@
+{
+    "COMPONENTS": {
+      "HEADER": {
+        "TITLE": "LA BLOCKCHAIN AU SECOURS DE LA BD",
+        "BUTTON_TEXT": "Rejoins nous"
+      },
+      "PRESENTATION": {
+        "TITLE": "RANA LA GRENOUILLE",
+        "SUBTITLE": "Une collection pleine d'aventures et d'humour, qui ravira les enfants comme les parents 😀"
+      },
+      "COMIC": {
+        "TITLE": "Et si vous déteniez une part de BD ?",
+        "SUBTITLE_PART_1": "Today the idea can be realized thanks to NFTs 📖",
+        "SUBTITLE_PART_2": "En participant au projet Rana, vous prendrez part à une première",
+        "SUBTITLE_PART_3": "mondiale🥇la création d'un comics grâce à la blockchain."
+      },
+      "NFTS": {
+        "AMUSEMENT": "AMUSEMENT",
+        "BATH": "BAIN",
+        "DIAPER": "COUCHE",
+        "BIRTH": "NAISSANCE",
+        "FOOD": "NOURRITURE",
+        "OTHERS": "SEE OTHER NFTS"
+      },
+      "PROJECT": {
+        "TITLE": "Un projet pour changer leur vision",
+        "HEADER": "Projet",
+        "EXPLANATION_LEFT": "L'idée même de détenir des parts d'une bande dessinée peut faire rire, et pourtant, cela est enfin rendu possible grâce aux NFTs. Imaginez vous entrain de vous balader dans un centre commercial et apercevoir une bande dessinée dont vous détenez des parts grâce à la blockchain.",
+        "EXPLANATION_RIGHT": "Magnifique n'est-ce pas ? C'est là toute l'essence du projet. Réunir des personnes de tous horizons pour qu'ils puissent eux même détenir une BD sans avoir besoin de la produire.",
+        "FIRST_CARD_LABEL": "Un projet ambitieux",
+        "FIRST_CARD_CONTENT": "Enfin un projet où conserver ses NFTs a du sens.",
+        "SECOND_CARD_LABEL": "Du numérique au physique",
+        "SECOND_CARD_CONTENT": "Associer la blockchain à un objet pour mieux comprendre.",
+        "THIRD_CARD_LABEL": "Partager les ressources",
+        "THIRD_CARD_CONTENT": "Participe à ton niveau, tout le monde t'attend !"
+      },
+      "ROADMAP": {
+        "HEADER": "Roadmap",
+        "SUBTITLE": "Une vision plus claire sur l'avancement du projet et la portée de ce dernier 🔍",
+        "CARD": {
+          "FIRST_LABEL": "Création du site web",
+          "SECOND_LABEL": "Design des premiers NFTs",
+          "THIRD_LABEL": "Création du compte Ranadventure",
+          "FOURTH_TITLE": "Mise à disposition des NFTs",
+          "FOURTH_CONTENT": "Les premiers thèmes ayant été designés, l'idée maintenant est de tous les mettre sur la blockchain WAX et de préparer un giveaway pour les premiers arrivés. Par la suite, des drops seront mis en place pour faire connaitre le projet.",
+          "FOURTH_ATOMIC_LINK": "Je ne connais pas Atomichub, comment ça se passe ?",
+          "FOURTH_RESOURCES": "Ressources",
+          "FOURTH_ACTION_FIRST": "Créer un portefeuille WAX",
+          "FOURTH_ACTION_SECOND": "Comprendre Atomichub",
+          "FIFTH_LABEL": "Création des premiers strips"
+        }
+      },
+      "TEAM": {
+        "TITLE": "L'équipe",
+        "LUMI": {
+          "NAME": "Lümi",
+          "DESCRIPTION": "Grande illustratrice Banano, elle se sert de ses petits doigts de dessinatrice pour nous apporter la grenouille la plus mignonne de la blockchain."
+        },
+        "ALAINHENRI": {
+          "NAME": "Alain Henri",
+          "DESCRIPTION": "Gourou de l'univers WAX et ingénieur informatique, son expérience permet d'appréhender l'univers des NFTs et de préparer au mieux un projet qui, nous l'espérons, sera couronné de succès autant pour vous que pour nous."
+        }
+      },
+      "FAQ": {
+        "TITLE": "Des questions ?",
+        "FIRST_QUESTION_TITLE": "Quand se passe le premier giveaway ?",
+        "FIRST_QUESTION_CONTENT": "Bientôt... Très bientôt ! Ne restez pas loin",
+        "SECOND_QUESTION_TITLE": "Dans quelle langue sera publiée la première version",
+        "SECOND_QUESTION_CONTENT": "En Français, car c'est notre langue native. Si le projet marche bien nous espérons sortir la version anglaise au même moment.",
+        "THIRD_QUESTION_TITLE": "Pourquoi s'appeler Rana ?",
+        "THIRD_QUESTION_CONTENT": "Rana, en latin, signifie Grenouille, tout simplement !",
+        "FOURTH_QUESTION_TITLE": "Suis-je en retard ?",
+        "FOURTH_QUESTION_CONTENT": "Bien-sûr que non, n'oublie surtout pas que tu es le bienvenu dans ce projet"
+      },
+      "BOTTOM": {
+        "TITLE": "Alors, prêt à détenir une part de BD ?",
+        "SUBTITLE": "Si l'univers te correspond et que tu as envie de te lancer dans un projet qui a du sens, alors tu es le bienvenue. Ensemble, passons du numérique au physique.",
+        "ACTION": "Prends part à l'aventure"
+      }
+    }
+  }
+  

@@ -19,12 +19,23 @@ export class RanaNftsComponent implements OnInit {
    * Handle the text and the associated image
    */
   nftMap: Map<string, string> = new Map<string, string>([
-    ["NAISSANCE", "assets/img/RANA_BIRTH.gif"],
-    ["COUCHE", "assets/img/RANA_DIAPER.gif"],
-    ["NOURRITURE", "assets/img/RANA_EATING.gif"],
-    ["AMUSEMENT", "assets/img/RANA_TOY.gif"],
-    ["BAIN", "assets/img/BATH.png"],
+    ["COMPONENTS.NFTS.BIRTH", "assets/img/RANA_BIRTH.gif"],
+    ["COMPONENTS.NFTS.DIAPER", "assets/img/RANA_DIAPER.gif"],
+    ["COMPONENTS.NFTS.FOOD", "assets/img/RANA_EATING.gif"],
+    ["COMPONENTS.NFTS.AMUSEMENT", "assets/img/RANA_TOY.gif"],
+    ["COMPONENTS.NFTS.BATH", "assets/img/BATH.png"],
   ]);
+
+  /**
+   * List of nfts
+   */
+  nfts: string[] = [
+    "COMPONENTS.NFTS.AMUSEMENT",
+    "COMPONENTS.NFTS.BATH",
+    "COMPONENTS.NFTS.DIAPER",
+    "COMPONENTS.NFTS.BIRTH",
+    "COMPONENTS.NFTS.FOOD",
+  ];
 
   constructor() {}
 

@@ -3,11 +3,14 @@
     <img src="assets/img/rana.png" />
   </div>
   <div class="section__title">
-    <label class="font--niagara title">LA BLOCKCHAIN AU SECOURS DE LA BD</label>
+    <label class="font--niagara title">{{
+      "COMPONENTS.HEADER.TITLE" | translate
+    }}</label>
   </div>
   <div class="section__action">
-    <button type="button" class="button button--primary" (click)="redirectRana()">
-      <label class="font__sf--medium">Rejoins nous</label>
-    </button>
+    <select (change)="changeLanguage($event.target)" id="select--lang">
+      <option value="en" class="font__sf">English</option>
+      <option value="fr" class="font__sf">Français</option>
+    </select>
   </div>
 </header>

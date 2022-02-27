@@ -18,9 +18,27 @@ img {
   height: 60px;
 }
 
+select {
+  border: none;
+  padding: 5px;
+  outline: none;
+  font-family: "SFPro-Regular";
+  background-color: rgb(0 0 0 / 20%);
+  border-radius: 2px;
+}
+
 @media screen and (max-width: 1120px) {
   .title {
     font-size: 2vw;
+  }
+  select {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 700px) {
+  select {
+    font-size: 1.8vw;
   }
 }
 
@@ -39,6 +57,9 @@ img {
       font-size: 2.5vw;
     }
   }
+  select {
+    font-size: 2.5vw;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -56,6 +77,9 @@ img {
       font-size: 7vw;
     }
   }
+  select {
+    font-size: 5.5vw;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -72,5 +96,14 @@ img {
     label {
       font-size: 5vw;
     }
+  }
+  select {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  select {
+    font-size: 5vw;
   }
 }

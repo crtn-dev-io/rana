@@ -17,14 +17,12 @@ export class RanaTeamComponent implements OnInit {
    */
   members: Member[] = [
     {
-      name: "Lümi",
-      description:
-        "Grande illustratrice Banano, elle se sert de ses petits doigts de dessinatrice pour nous apporter la grenouille la plus mignonne de la blockchain.",
+      name: "COMPONENTS.TEAM.LUMI.NAME",
+      description: "COMPONENTS.TEAM.LUMI.DESCRIPTION",
     },
     {
-      name: "Alain Henri",
-      description:
-        "Gourou de l'univers WAX et ingénieur informatique, son expérience permet d'appréhender l'univers des NFTs et de préparer au mieux un projet qui, nous l'espérons, sera couronné de succès autant pour vous que pour nous.",
+      name: "COMPONENTS.TEAM.ALAINHENRI.NAME",
+      description: "COMPONENTS.TEAM.ALAINHENRI.DESCRIPTION",
     },
   ];
 

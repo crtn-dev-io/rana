@@ -1,6 +1,6 @@
 <div class="faq clickable" (click)="onContentDisplay()">
   <div class="faq__title">
-    <label class="font__sf--bold">{{ question.title }}</label>
+    <label class="font__sf--bold">{{ question.title | translate }}</label>
   </div>
   <div class="faq__icon">
     <img
@@ -13,6 +13,6 @@
     />
   </div>
   <div class="faq__content" *ngIf="question.isDisplayed">
-    <label class="font__sf">{{ question.content }}</label>
+    <label class="font__sf">{{ question.content | translate }}</label>
   </div>
 </div>

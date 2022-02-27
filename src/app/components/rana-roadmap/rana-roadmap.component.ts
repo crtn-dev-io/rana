@@ -12,7 +12,7 @@ export class RanaRoadmapComponent implements OnInit {
    */
   roadmap: RoadMap[] = [
     {
-      label: "Création du site web",
+      label: "COMPONENTS.ROADMAP.CARD.FIRST_LABEL",
       icon: "assets/img/checkmark--success.svg",
       chips: [
         {
@@ -21,7 +21,7 @@ export class RanaRoadmapComponent implements OnInit {
       ],
     },
     {
-      label: "Design des premiers NFTs",
+      label: "COMPONENTS.ROADMAP.CARD.SECOND_LABEL",
       icon: "assets/img/checkmark--success.svg",
       chips: [
         {
@@ -30,14 +30,16 @@ export class RanaRoadmapComponent implements OnInit {
       ],
     },
     {
-      label: "Création du compte Ranadventure",
+      label: "COMPONENTS.ROADMAP.CARD.THIRD_LABEL",
       icon: "assets/img/checkmark--success.svg",
       chips: [
         {
           label: "WAX",
+          link: "https://wax.atomichub.io/profile/ranadventure"
         },
         {
           label: "TWITTER",
+          link: "https://twitter.com/RANADVENTURE"
         },
       ],
     },
@@ -48,7 +50,7 @@ export class RanaRoadmapComponent implements OnInit {
    */
   roadmapNext: RoadMap[] = [
     {
-      label: "Création des premiers strips",
+      label: "COMPONENTS.ROADMAP.CARD.FIFTH_LABEL",
       icon: "assets/img/time--grey.svg",
       chips: [
         {

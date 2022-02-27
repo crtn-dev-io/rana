@@ -2,17 +2,21 @@
   <img src="assets/img/banniere.png" />
   <div class="bottom__banniere">
     <div class="bottom__content">
-      <label class="font__sf--bold color--light title"
-        >Alors, prêt à détenir une part de BD ?</label
-      >
-      <label class="font__sf color--grey content"
-        >Si l'univers te correspond et que tu as envie de te lancer dans un
-        projet qui a du sens, alors tu es le bienvenue. Ensemble, passons du
-        numérique au physique.</label
-      >
+      <label class="font__sf--bold color--light title">{{
+        "COMPONENTS.BOTTOM.TITLE" | translate
+      }}</label>
+      <label class="font__sf color--grey content">{{
+        "COMPONENTS.BOTTOM.SUBTITLE" | translate
+      }}</label>
       <div class="action">
-        <button type="button" class="button button--primary" (click)="redirectRana()">
-          <label class="font__sf--medium">Rejoins nous</label>
+        <button
+          type="button"
+          class="button button--primary"
+          (click)="redirectRana()"
+        >
+          <label class="font__sf--medium">{{
+            "COMPONENTS.BOTTOM.ACTION" | translate
+          }}</label>
         </button>
       </div>
     </div>

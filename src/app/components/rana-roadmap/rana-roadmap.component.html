@@ -1,14 +1,15 @@
 <div class="wrapper">
   <div class="wrapper__left">
     <div class="wrapper__title">
-      <label class="font__sf--bold">Roadmap</label>
+      <label class="font__sf--bold">{{
+        "COMPONENTS.ROADMAP.HEADER" | translate
+      }}</label>
       <img src="assets/img/checkmark.svg" />
     </div>
     <div class="wrapper__text">
-      <label class="font__sf color--grey"
-        >Une vision plus claire sur l'avancement du projet et la portée de ce
-        dernier</label
-      >
+      <label class="font__sf color--grey">{{
+        "COMPONENTS.ROADMAP.SUBTITLE" | translate
+      }}</label>
     </div>
     <div class="wrapper__image">
       <img src="assets/img/rana.png" />
@@ -26,29 +27,28 @@
         <div class="card__header">
           <img src="assets/img/time--grey.svg" height="30" />
           <div class="card__title">
-            <label class="font__sf--medium color--dark"
-              >Mise à disposition des NFTs</label
-            >
+            <label class="font__sf--medium color--dark">{{
+              "COMPONENTS.ROADMAP.CARD.FOURTH_TITLE" | translate
+            }}</label>
           </div>
         </div>
         <div class="card__content">
           <div class="content__explanation">
-            <label class="font__sf color--grey"
-              >Les premiers thèmes ayant été designés, l'idée maintenant est de
-              tous les mettre sur la blockchain WAX et de préparer un giveaway
-              pour les premiers arrivés. Par la suite, des drops seront mis en
-              place pour faire connaitre le projet.</label
-            >
+            <label class="font__sf color--grey">{{
+              "COMPONENTS.ROADMAP.CARD.FOURTH_CONTENT" | translate
+            }}</label>
           </div>
           <br />
           <div class="content__link">
-            <a class="font__sf color--primary"
-              >Je ne connais pas Atomichub, comment ça se passe ?</a
-            >
+            <a class="font__sf color--primary">{{
+              "COMPONENTS.ROADMAP.CARD.FOURTH_ATOMIC_LINK" | translate
+            }}</a>
           </div>
           <br />
           <div class="content__actions">
-            <small class="font__sf color--grey">Ressources</small>
+            <small class="font__sf color--grey">{{
+              "COMPONENTS.ROADMAP.CARD.FOURTH_RESOURCES" | translate
+            }}</small>
             <div class="actions">
               <button
                 class="button button--primary"
@@ -58,13 +58,17 @@
                   )
                 "
               >
-                <label class="font__sf">Créer un portefeuille WAX</label>
+                <label class="font__sf">{{
+                  "COMPONENTS.ROADMAP.CARD.FOURTH_ACTION_FIRST" | translate
+                }}</label>
               </button>
               <button
                 class="button button--primary"
                 (click)="redirectWebsite('https://support.pink.gg/hc/en-us')"
               >
-                <label class="font__sf">Comprendre AtomicHub</label>
+                <label class="font__sf">{{
+                  "COMPONENTS.ROADMAP.CARD.FOURTH_ACTION_SECOND" | translate
+                }}</label>
               </button>
             </div>
           </div>

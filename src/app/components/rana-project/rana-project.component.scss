@@ -106,8 +106,9 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .wrapper {
+    margin-top: 8vw;
     &__img {
       img {
         height: 85vw;
@@ -134,7 +135,7 @@
     }
     .card__project {
       border: 5px solid var(--ra-color-dark);
-      width: 75%;
+      width: 70%;
       left: 45%;
       font-size: 9vw;
     }
