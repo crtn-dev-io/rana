@@ -27,21 +27,6 @@ select {
   border-radius: 2px;
 }
 
-@media screen and (max-width: 1120px) {
-  .title {
-    font-size: 2vw;
-  }
-  select {
-    font-size: 5vw;
-  }
-}
-
-@media screen and (max-width: 1024px) and (max-height: 700px) {
-  select {
-    font-size: 1.8vw;
-  }
-}
-
 @media screen and (max-width: 980px) {
   .header {
     height: 100px;
